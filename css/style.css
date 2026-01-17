@@ -1,19 +1,19 @@
 :root {
-  /* New palette */
+  
   --almond-silk:   #f7d1cdff;
   --pastel-petal:  #e8c2caff;
-  --thistle:       #d1b3c4ff;
-  --lilac-ash:     #b392acff;
+  --thistle:       rgb(212, 195, 205);
+  --lilac-ash:     rgba(182, 158, 177, 0.959);
   --dusty-lavender:#735d78ff;
 
-  /* Legacy names mapped to new palette (for the existing HTML) */
+
   --dark-amethyst:  var(--dusty-lavender);
   --dusty-grape:    var(--lilac-ash);
   --amethyst-smoke: var(--dusty-lavender);
   --lilac:          var(--thistle);
   --pink-orchid:    var(--almond-silk);
 
-  /* Main theme */
+  
   --bg: var(--pastel-petal);
   --bg-secondary: var(--thistle);
 
@@ -57,7 +57,7 @@ html, body {
 
 body {
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: var(--bg-secondary); /* flat background */
+  background-color: var(--bg-secondary); 
   color: var(--text);
   min-height: 100vh;
   padding: 32px 16px 48px;
